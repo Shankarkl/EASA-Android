@@ -2128,8 +2128,7 @@ if (xmlDoc.getElementsByTagName("MobileUserRegisterResult")[0] != null && xmlDoc
         return false;
     } else {
         jAlert('Register is successful. You can login to the application, but you have no access to Europe Assist services', 'Info');
-        jAlert(xmlDoc.getElementsByTagName("ErrorMessage")[0].childNodes[0].nodeValue, 'Info');
-        prevPage = currentPage;
+         prevPage = currentPage;
         $.mobile.changePage('#indexPage', {
             transition: "none",
             reverse: true,
@@ -2137,7 +2136,7 @@ if (xmlDoc.getElementsByTagName("MobileUserRegisterResult")[0] != null && xmlDoc
         });
         currentPage = 'indexPage';
         pageData.push(currentPage);
-        
+        alert(xmlDoc.getElementsByTagName("ErrorMessage")[0].childNodes[0].nodeValue);
     }
 
 
