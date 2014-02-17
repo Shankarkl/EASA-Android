@@ -105,7 +105,6 @@ a
 }
 .headerwt
 {
-    /*width: 20% !important;*/
     width:7%;
     height: 30%;
     padding-right:5px;
@@ -150,12 +149,7 @@ a
     padding-top: 11px;
     padding-bottom: 1px;
     text-align:center;
-    /*padding-left:5px;
-    padding-right:5px;*/
-    /*added*/
-    /*border-collapse:separate;
-    border-spacing:10px 50px;*/
-
+   
 }
 
 .imglogo
@@ -166,10 +160,9 @@ a
 {
     width: 100%;
     background-image: url('public/images/EAslicing/bgrepete.png');
-    /*background-color: #E53138; height: 100%;*/
     vertical-align: top;
     overflow: hidden;
-    /*position:absolute;*/
+    
 }
 .maintable1
 {
@@ -231,7 +224,6 @@ a
     border-top-color: black;
     border-top-style: solid;
     border-bottom-width: 2px;
-   /* border-bottom-color: black;*/
     border-bottom-style: solid;
     background-color: #E53138;
 }
@@ -401,14 +393,12 @@ a
     font-family: Calibri,sans-serif,Verdana,Tahoma,Arial;
     vertical-align: top;
     width:20%;
-    /*width:25%;*/
     height: 92%;
     float: left;
     text-align: center;
     padding-top: 11px;
     padding-bottom: 1px;
-    /*padding-left:5px;
-    padding-right:5px;*/
+ 
 }
 
 
@@ -605,31 +595,26 @@ a
 }
 .home
 {
-   /* background-image: url('public/images/Servicesimgs/home.png');*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .medical
 {
-    /*background-image: url('public/images/Servicesimgs/medical.png');*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .roadassistance
 {
-    /*background-image: url('public/images/Servicesimgs/road.png');*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .legal
 {
-   /* background-image: url('public/images/Servicesimgs/legal.png');*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .travel
 {
-   /* background-image: url('public/images/Servicesimgs/travel.png');*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -694,8 +679,6 @@ a
 }
 .divpop
 {
-   /* border-color: #285171;
-    border-width: 20px;*/
     border-radius: 20px;
     display: none;
     border: 5px solid #285171;
@@ -734,9 +717,7 @@ a
 
 .europimght
 {
-    /*width:px;*/
     height: 70px;
-    /*width:100%;*/ /*width: 121px;*/
 }
 .foo
 {
@@ -748,10 +729,9 @@ a
     border-top-width: 2px;
     border-top-color: black;
     border-top-style: solid;
-    /*height: 7%;*/
     vertical-align: middle;
     background-color: #E53138;
-    /*padding: 40px 10px 25px 10px;*/
+  
 }
 .medi
 {
@@ -1084,10 +1064,6 @@ a
 {
     font-size: 16px;
     font-weight: bold;
-    background: #e53138 url(public/images/arrowup.gif) no-repeat 280px;
-    /*border-bottom: 0px solid #999;*/
-    /*-moz-border-radius: 6px 6px 0px 0px;
-    -webkit-border-radius: 6px 6px 0px 0px;*/
     color: White;
     font-family: Calibri, sans-serif,Verdana,Tahoma,Arial;
     vertical-align: middle;
@@ -1096,13 +1072,12 @@ a
 /* panel heading on rollover */
 .panel h2:hover, .panelcollapsed h2:hover
 {
-    background-color: #e53138;
+    /*background-color: #e53138;*/
 }
 
 /* heading of a collapsed panel */
 .panelcollapsed h2
 {
-    background: #e53138 url(public/images/arrowdn.gif) no-repeat 280px;
     border-color: #e53138;
 }
 
@@ -1296,8 +1271,9 @@ width: 75%;
 /*THRUPTI END*/
 .topbar
 {
-    /*height:96px;*/
+  
     height: 15%;
+    overflow-x:hidden !important;
 }
 
 .bluebg
@@ -1305,39 +1281,26 @@ width: 75%;
     background-image: url('public/images/EAslicing/bgrepete.png');
     height: 100%;
 }
-/*.loadingmaindiv
-{
-    opacity:0.5;
-    filter:alpha(opacity =50);
-    display:none;
-    position: relative;
-    z-index: 1000;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-}
-.loadingimgdiv
-{
-    left: 45%;
-    top: 40%;
-    position: relative;
-    z-index: 1000;
-    height: 32px;
-    width: 32px;
-}*/
 
- 
-.loadingmaindiv
+
+.loadingmaindiv 
 {
-    left: 0;
-    top: 0;
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    height: 100%;
-    width: 100%;
-    background-color:#152C3F; 
-    opacity:0.9;
+    
+  width: 105%;
+  height: 105%;
+  top: -5px!important;
+  left: -5px!important;right: 5px!important;
+  bottom: 5px!important;
+  position: fixed;
+  display: none;
+  opacity: 0.9;
+  background-color: #152C3F;
+  z-index: 99;
+  text-align: center;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .loadingimgdiv
 {
@@ -1419,10 +1382,7 @@ width: 75%;
     font-weight: bold;
     word-wrap:break-word!important;
     width:50%;
-    /*text-align: justify;*/
-    /*********changed 20th july***************/
-    /*padding-right:5%;
-    padding-left:5%;*/
+   
 }
 
 
@@ -1431,16 +1391,9 @@ width: 75%;
     font-size: 12px;
     font-family: Calibri,sans-serif,Verdana,Tahoma,Arial;
     color:  #9FB7D2;
-    /*text-wrap:normal!important;*/
     text-align:left;
-    /*word-wrap:break-word !important;*/
     position:relative;
-    /*display: inline-block;*/
-    /*max-width:50% !important;*/
-    /*text-align: justify;*/
-    /*******changed20th july*/
-    /*padding-left:5%;
-    padding-right:5%;*/
+   
 }
 
 #tbldisplaymerchantdeals {
@@ -1460,15 +1413,12 @@ input[type="text"]:disabled
 color:white;
 }
 
-
-/***** Trupthi July 11 *****/
-
 .acceptdiv {
     color:white;
     padding-right:5%;
     padding-left:5%;
    font-family:Calibri,sans-serif,Verdana,Tahoma,Arial;
-   /*******changed20th july*/text-align:left;
+   text-align:left;
 }
 .headeingdiv {
     color:white;
@@ -1476,7 +1426,7 @@ color:white;
     font-family:Calibri,sans-serif,Verdana,Tahoma,Arial;
      padding-right:5%;
     padding-left:5%;
-    /*******changed20th july*/text-align:justify;
+   text-align:justify;
 }
 .divpd {
     padding-top:4%;
@@ -1491,11 +1441,11 @@ color:white;
    padding-top:7%;  
 }
 .termsspace {
-    padding-top:5%;
+    padding-top:3%;
     padding-bottom:10%;
-    /*******changed20th july*/ text-align:justify;
+    text-align:justify;
 }
-/************changed20th july****************/
+
 .getvoucher {
     padding-left:5%;
     padding-right:5%;
@@ -1504,13 +1454,13 @@ color:white;
 {
 height: 25px; width: 100%; font-family: Calibri, sans-serif,Verdana,Tahoma,Arial; color: #9FB5CC; font-size: 12px; text-align: center;margin-left:18px;
 }
-/*************getvoucher added******************/
+
 .divgetvouchercontent {
     font-size: 12px;
     font-family: Calibri,sans-serif,Verdana,Tahoma,Arial;
     color: #FFFFFF;
     text-align: justify;
-    /*******changed20th july*/
+  
     padding-left:5%;
     padding-right:5%;
 }
@@ -1521,11 +1471,11 @@ height: 25px; width: 100%; font-family: Calibri, sans-serif,Verdana,Tahoma,Arial
     color: #FFFFFF;
     font-weight: bold;
     text-align: justify;
-    /*********changed 20th july***************/
+  
     padding-right:5%;
     padding-left:5%;
 }
-/***********************ADDED*/
+
 .divspace {
    padding-right:10%;
    background-image: url('public/images/EAslicing/navbgrepete.png');
@@ -1539,10 +1489,9 @@ height: 25px; width: 100%; font-family: Calibri, sans-serif,Verdana,Tahoma,Arial
     height: 100%;
 }
 .setheight {
-    /*padding-bottom:15px;*/
-    /*padding-right:10px;*/
+  
 }
-/***27aug***/
+
 .hmeassist {
     height:60%;
  vertical-align:middle;
@@ -1555,31 +1504,26 @@ height: 25px; width: 100%; font-family: Calibri, sans-serif,Verdana,Tahoma,Arial
     color: #FFFFFF;
     font-family: Calibri,sans-serif,Verdana,Tahoma,Arial;
     text-align:left;
-    /*padding-left:35px;*/
+  
 }
 .yespls {
     height:70%;
     width:90%;
 }
 .regsubbtn {
-    /*width:80%;
-    height:70%;*/
+   
     height:50%;
 }
 .regsubbtn1 {
-    /*width:80%;
-    height:70%;*/
+   
     height:30%;
 }
 .viewblack {
-     position: absolute;
+  position: absolute;
   height: 100%;
   width: 100%;
  background-color: rgba(0, 0, 0, 0.8);
   border: 2px red medium;
-  /*opacity: 0.7;
-  filter: alpha(opacity=50);
-  filter: "alpha(opacity=50)";*/
   cursor: default;
 }
 
@@ -1594,7 +1538,7 @@ input[type="checkbox"]
                 margin-right:5px!important;
                 -webkit-appearance:checkbox!important;
                 -webkit-border-radius:0px;
-                /*background:#ffffff!important;*/
+               
             }
 
 .styled-select {
@@ -1663,24 +1607,7 @@ position:relative!important;
 .getwidth {
     width:50%;
 }
-/*ul.frames  li {
-  display:inline-block!important;
-  margin: 0!important;
-  list-style: none!important;
-}
-ul.frames li img {
-  margin: 0!important;
-  padding:0!important;
-}
-ol.frames  li {
-  display:inline-block!important;
-  margin: 0!important;
-  list-style: none!important;
-}
-ol.frames li img {
-  margin: 0!important;
-  padding:0!important;
-}*/
+
 .nameclass {
    /* background-color:red;*/
    color:White!important;
@@ -1737,15 +1664,7 @@ ol.frames li img {
     -webkit-backface-visibility: hidden !important;
 }
 
-/* To avoid Flicker in iphone added this css & transition none instead of slide 
-.ui-page {
-    -webkit-backface-visibility: hidden;
-    overflow: hidden;
-}
-.ui-page,
-.ui-page > div {
-  -webkit-transform: translateZ(0); 
-}*/
+
 
 .rowheight
 {
@@ -1803,6 +1722,42 @@ padding-bottom: 2%;
     font-family: Calibri,sans-serif,Verdana,Tahoma,Arial;
     width: 80%;
     vertical-align:middle;
-    /*padding-top: 1%;
-    padding-bottom: 1%;*/
+  
+}
+/* reducing jalert width & content wrap */
+
+
+#popup_container
+{
+    min-width: 0%!important; 
+    white-space: pre !important;
+    white-space: pre-wrap !important;
+    white-space: pre-line !important;
+    white-space: -pre-wrap !important;
+    white-space: -o-pre-wrap !important;
+    white-space: -moz-pre-wrap !important;
+    word-wrap: break-word !important;
+    -ms-word-break:break-all !important;
+    word-break:break-all !important;
+    -webkit-hyphens:auto !important;
+    -moz-hyphens:auto !important;
+   
+	
+}
+
+#popup_message
+{
+padding-left:0px !important;
+white-space: pre !important;
+white-space: pre-wrap !important;
+white-space: pre-line !important;
+white-space: -pre-wrap !important;
+white-space: -o-pre-wrap !important;
+white-space: -moz-pre-wrap !important;
+word-wrap: break-word !important;
+-ms-word-break:break-all !important;
+ word-break:break-all !important;
+ -webkit-hyphens:auto !important;
+ -moz-hyphens:auto !important;
+
 }
